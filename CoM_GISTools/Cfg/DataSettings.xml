@@ -85,7 +85,7 @@
     <!-- this value must be set so that the AddLayers tool knows where to get the layers -->
     <!-- Required Setting  ::: Can be used in this verion of the code -->
     <!-- ********** USABLE  *********** -->
-    <Setting Name="Default_Layer_Location" Value="\\medgis1\GISData\GIS\Layers\"/>
+    <Setting Name="Default_Layer_Location" Value="\\xxx1\GISData\GIS\Layers\"/>
 
     <!-- this key sets the user for the geoprocessing tasks for editing -->
     <!-- Required Setting  ::: Value is not actively used in this version of the code -->
@@ -99,6 +99,6 @@
     <!-- the organizatio name is used as a label in ArcMap Extensions list as well as the toolbar list -->
     <!-- Required Setting  ::: Can be used in this verion of the code -->
     <!-- ********** USABLE  *********** -->
-    <Setting Name="Organization_Name" Value="City of Medford"/>
+    <Setting Name="Organization_Name" Value="xxxx"/>
   </Settings>
 </DataConfig>
