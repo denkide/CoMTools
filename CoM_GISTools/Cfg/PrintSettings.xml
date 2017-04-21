@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<PrintConfig>
+  <PrintSettings>
+    <PortraitPrintSetting Name="Portrait_NeatLineXMin" Value="0.281"/> <!--  .281 -->
+    <PortraitPrintSetting Name="Portrait_NeatLineXMax" Value="8.187"/>
+    <PortraitPrintSetting Name="Portrait_NeatLineYMin" Value="0.369"/> <!-- .369-->
+    <PortraitPrintSetting Name="Portrait_NeatLineYMax" Value="10.748"/>
+    <PortraitPrintSetting Name="Portrait_MapFrameXMin" Value="0.281"/> <!-- 308 -->
+    <PortraitPrintSetting Name="Portrait_MapFrameXMax" Value="8.187"/> <!--  8.164 -->
+    <PortraitPrintSetting Name="Portrait_MapFrameYMin" Value="1.439"/>
+    <PortraitPrintSetting Name="Portrait_MapFrameYMax" Value="10.748"/><!-- 722 -->
+    <PortraitPrintSetting Name="Portrait_LogoOffset" Value="6.613"/>
+    <PortraitPrintSetting Name="Portrait_MapscaleTextOffset" Value="0.03"/>
+    <PortraitPrintSetting Name="Portrait_NameDateOffset" Value="0.007"/>
+    <PortraitPrintSetting Name="Portrait_TitleXOffset" Value="0.07"/>
+    <PortraitPrintSetting Name="Portrait_LegendYMax" Value="6.75"/>
+    <PortraitPrintSetting Name="Portrait_MaxLegendHeight" Value="4.53"/>
+    <PortraitPrintSetting Name="Portrait_RightOfTitleLineX" value="3.693"/>
+    <PortraitPrintSetting Name="Portrait_LeftLineX" value="6.5833"/>   <!-- 6.613 -->
+    <PortraitPrintSetting Name="Portrait_CenterLineY" value="1.0784"/> <!--  0.9905 -->
+    <PortraitPrintSetting Name="Portrait_ScalebarXMin" value="3.925"/>
+    <PortraitPrintSetting Name="Portrait_ScalebarXMax" value="5.045"/> <!-- 5.195 -->
+    <PortraitPrintSetting Name="Portrait_ScalebarYMin" value="0.8"/>   <!-- 0.9332 -->
+    <PortraitPrintSetting Name="Portrait_ScalebarYMax" value="1.0186"/><!--1.1 , 0.956 -->
+    <PortraitPrintSetting Name="Portrait_MapscaleText_XMin" value="4.275"/>
+    <PortraitPrintSetting Name="Portrait_MapscaleText_XMax" value="4.887"/>
+    <PortraitPrintSetting Name="Portrait_MapscaleText_YMin" value="0.517"/>
+    <PortraitPrintSetting Name="Portrait_MedfordRectangle_YMin" value="1.2042"/><!-- 1.129 -->
+    <PortraitPrintSetting Name="Portrait_MedfordText_XMin" value="6.869"/>
+    <PortraitPrintSetting Name="Portrait_MedfordText_XMax" value="7.921"/>
+    <PortraitPrintSetting Name="Portrait_MedfordText_YMin" value="1.2444"/><!-- 1.215 -->
+    <PortraitPrintSetting Name="Portrait_MedfordText_YMax" value="1.3674"/>
+    <!-- 1.338 -->
+    <PortraitPrintSetting Name="Portrait_MedGISText_XMin" value="6.714"/>
+    <PortraitPrintSetting Name="Portrait_MedGISText_XMax" value="8.056"/>
+    <PortraitPrintSetting Name="Portrait_MedGISText_YMin" value="1.182"/>
+    <!--  0.924 -->
+    <PortraitPrintSetting Name="Portrait_MedGISText_YMax" value="1.193"/>
+    <PortraitPrintSetting Name="Portrait_Disclaimer_XMin" value="6.635"/>
+    <PortraitPrintSetting Name="Portrait_Disclaimer_XMax" value="8.156"/>
+    <PortraitPrintSetting Name="Portrait_Disclaimer_YMin" value="0.4949"/>
+    <!--  0.419 -->
+    <PortraitPrintSetting Name="Portrait_Disclaimer_YMax" value="0.8919"/>
+    <!--  0.816 -->
+    <PortraitPrintSetting Name="Portrait_Recycle_YMin" value="0.173"/>
+    <PortraitPrintSetting Name="Portrait_Recycle_HeightWidth" value="0.17"/>
+    <PortraitPrintSetting Name="Portrait_Recycle_ImagePath" value="I:\GIS\City_Logo\recycling.bmp"/>
+    <PortraitPrintSetting Name="Portrait_Logo_Image" value="I:\GIS\City_Logo\CityLogo.bmp"/>
+    <PortraitPrintSetting Name="Portrait_Logo_XMin" value="5.825"/>
+    <PortraitPrintSetting Name="Portrait_Logo_YMin" value="0.6"/>
+    <PortraitPrintSetting Name="Portrait_Logo_Height" value="0.6"/>
+    <PortraitPrintSetting Name="Portrait_Logo_Width" value="0.6"/>
+    <PortraitPrintSetting Name="Portrait_NorthArrow_Width" value="0.26"/>
+    <!-- 0.131 -->
+    <PortraitPrintSetting Name="Portrait_NorthArrow_Height" value="0.4748"/>
+    <!-- 0.292 -->
+    <PortraitPrintSetting Name="Portrait_NorthArrow_Character" value="175"/>
+    <PortraitPrintSetting Name="Portrait_NorthArrow_Size" value="40"/>
+    <PortraitPrintSetting Name="Portrait_NorthArrow_XMax" value="3.65"/>
+    <!--  4.63 -->
+    <PortraitPrintSetting Name="Portrait_NorthArrow_YMax" value="1.25"/>
+    <!-- 1.303 -->
+    <PortraitPrintSetting Name="Portrait_NorthArrow_XMin" value="3.243"/>
+    <!-- 4.499 -->
+    <PortraitPrintSetting Name="Portrait_NorthArrow_YMin" value="0.6007"/>
+    <!-- 1.012 -->
+    <PortraitPrintSetting Name="Portrait_Title_XMin" value="0.388"/>
+    <PortraitPrintSetting Name="Portrait_Title_YMin" value="1.358"/>
+    <!--  0.908 -->
+    <PortraitPrintSetting Name="Portrait_Title_XMax" value="3.443"/>
+    <!-- 3.566 -->
+    <PortraitPrintSetting Name="Portrait_Title_YMax" value="1.0207"/>
+    <!-- 1.9 , 1.143 -->
+    <PortraitPrintSetting Name="Portrait_Subtitle_XMin" value="0.4"/>
+    <!--  0.388 -->
+    <PortraitPrintSetting Name="Portrait_Subtitle_YMin" value="1.12"/>
+    <!-- 1.152 / 0.702 -->
+    <PortraitPrintSetting Name="Portrait_Subtitle_XMax" value="2.337"/>
+    <PortraitPrintSetting Name="Portrait_Subtitle_YMax" value="1.283"/>
+    <!-- 0.836  -->
+    <PortraitPrintSetting Name="Portrait_Legend_XMin" value="0.4"/>
+    <!-- .309 -->
+    <PortraitPrintSetting Name="Portrait_Legend_YMin" value="1.5"/>
+    <!-- 1.465 -->
+    <PortraitPrintSetting Name="Portrait_Legend_Height" value="9.301"/>
+    <PortraitPrintSetting Name="Portrait_Legend_Width" value="1.8"/>
+    <PortraitPrintSetting Name="Portrait_NameXMin" Value="4.5"/>
+    <!--4.2-->
+    <PortraitPrintSetting Name="Portrait_NameXMax" Value="4.9"/>
+    <PortraitPrintSetting Name="Portrait_NameYMin" Value="0.4642"/>
+    <PortraitPrintSetting Name="Portrait_NameYMax" Value="0.5402"/>
+
+    <LandscapePrintSetting Name="Landscape_NameXMin" Value="9.6"/>
+    <LandscapePrintSetting Name="Landscape_NameXMax" Value="10.3"/>
+    <LandscapePrintSetting Name="Landscape_NameYMin" Value="1.26"/>
+    <LandscapePrintSetting Name="Landscape_NameYMax" Value="1.33"/>
+    <LandscapePrintSetting Name="Landscape_NeatLineXMin" Value="0.375"/>
+    <LandscapePrintSetting Name="Landscape_NeatLineXMax" Value="10.7"/>
+    <LandscapePrintSetting Name="Landscape_NeatLineYMin" Value="0.375"/>
+    <LandscapePrintSetting Name="Landscape_NeatLineYMax" Value="8.13"/>
+    <LandscapePrintSetting Name="Landscape_MapFrameXMin" Value="0.375"/>
+    <LandscapePrintSetting Name="Landscape_MapFrameXMax" Value="9.02"/>
+    <LandscapePrintSetting Name="Landscape_MapFrameYMin" Value="0.375"/>
+    <LandscapePrintSetting Name="Landscape_MapFrameYMax" Value="8.13"/>
+    <LandscapePrintSetting Name="Landscape_LogoOffset" Value="0.225"/>
+    <LandscapePrintSetting Name="Landscape_MapscaleTextOffset" Value="0.11"/>
+    <LandscapePrintSetting Name="Landscape_NameDateOffset" Value="0.007"/>
+    <LandscapePrintSetting Name="Landscape_TitleXOffset" Value="0.07"/>
+    <LandscapePrintSetting Name="Landscape_LegendYMax" Value="6.75"/>
+    <LandscapePrintSetting Name="Landscape_MaxLegendHeight" Value="4.53"/>
+    <LandscapePrintSetting Name="Landscape_ScalebarXMin" value="9.3"/>
+    <LandscapePrintSetting Name="Landscape_ScalebarXMax" value="10.42"/>
+    <LandscapePrintSetting Name="Landscape_ScalebarYMin" value="2.142"/>
+    <!-- 1.97 -->
+    <LandscapePrintSetting Name="Landscape_ScalebarYMax" value="2.3606"/>
+    <!--  2.17 -->
+    <LandscapePrintSetting Name="Landscape_MapscaleText_XMin" value="1"/>
+    <LandscapePrintSetting Name="Landscape_MapscaleText_XMax" value="1"/>
+    <LandscapePrintSetting Name="Landscape_MapscaleText_YMin" value="1"/>
+    <LandscapePrintSetting Name="Landscape_MedfordRectangle_YMin" value="1"/>
+    <LandscapePrintSetting Name="Landscape_MedfordText_XMin" value="1"/>
+    <LandscapePrintSetting Name="Landscape_MedfordText_XMax" value="1"/>
+    <LandscapePrintSetting Name="Landscape_MedfordText_YMin" value="1"/>
+    <LandscapePrintSetting Name="Landscape_MedfordText_YMax" value="1"/>
+    <LandscapePrintSetting Name="Landscape_MedGISText_XMin" value="1"/>
+    <LandscapePrintSetting Name="Landscape_MedGISText_XMax" value="1"/>
+    <LandscapePrintSetting Name="Landscape_MedGISText_YMin" value="7.7699"/>
+    <!-- 0.38   44 -->
+    <LandscapePrintSetting Name="Landscape_MedGISText_YMax" value="7.9599"/>
+    <!-- 0.19  26 -->
+    <LandscapePrintSetting Name="Landscape_Disclaimer_XMin" value="9.065"/>
+    <LandscapePrintSetting Name="Landscape_Disclaimer_XMax" value="10.665"/>
+    <LandscapePrintSetting Name="Landscape_Disclaimer_YMin" value=".45"/>
+    <LandscapePrintSetting Name="Landscape_Disclaimer_YMax" value="1.11"/>
+    <LandscapePrintSetting Name="Landscape_Recycle_YMin" value="0.183"/>
+    <LandscapePrintSetting Name="Landscape_Recycle_HeightWidth" value="0.17"/>
+    <LandscapePrintSetting Name="Landscape_Recycle_ImagePath" value="I:\GIS\City_Logo\recycling.bmp"/>
+    <LandscapePrintSetting Name="Landscape_Logo_Image" value="I:\GIS\City_Logo\CityLogo.bmp"/>
+    <LandscapePrintSetting Name="Landscape_Logo_XMin" value="9.57"/>
+    <LandscapePrintSetting Name="Landscape_Logo_YMin" value="1.42"/>
+    <!-- 1.3426 // 1.2 -->
+    <LandscapePrintSetting Name="Landscape_Logo_Height" value="0.6"/>
+    <LandscapePrintSetting Name="Landscape_Logo_Width" value="0.6"/>
+    <LandscapePrintSetting Name="Landscape_NorthArrow_Width" value="0.2"/>
+    <LandscapePrintSetting Name="Landscape_NorthArrow_Height" value="0.42"/>
+    <LandscapePrintSetting Name="Landscape_NorthArrow_Character" value="175"/>
+    <LandscapePrintSetting Name="Landscape_NorthArrow_Size" value="40"/>
+    <LandscapePrintSetting Name="Landscape_NorthArrow_XMax" value="8.97"/>
+    <LandscapePrintSetting Name="Landscape_NorthArrow_YMax" value="8.03"/>
+    <LandscapePrintSetting Name="Landscape_NorthArrow_XMin" value="8.77"/>
+    <LandscapePrintSetting Name="Landscape_NorthArrow_YMin" value="7.61"/>
+    <LandscapePrintSetting Name="Landscape_Title_XMin" value="9.09"/>
+    <LandscapePrintSetting Name="Landscape_Title_XMax" value="10.1"/>
+    <!-- 7.65 -->
+    <LandscapePrintSetting Name="Landscape_Title_YMin" value="7.00"/>
+    <!-- 0.908 -->
+    <LandscapePrintSetting Name="Landscape_Title_YMax" value="7.4"/>
+    <!-- 1.143 -->
+    <LandscapePrintSetting Name="Landscape_Subtitle_XMin" value="9.09"/>
+    <LandscapePrintSetting Name="Landscape_Subtitle_XMax" value="10.6"/>
+    <LandscapePrintSetting Name="Landscape_Subtitle_YMin" value="6.9612"/>
+    <!-- 0.702-->
+    <LandscapePrintSetting Name="Landscape_Subtitle_YMax" value="7.1"/>
+    <!--  7.1 -->
+    <LandscapePrintSetting Name="Landscape_Legend_XMin" value="9.3"/>
+    <!-- 8.7 -->
+    <LandscapePrintSetting Name="Landscape_Legend_YMin" value="2.75"/>
+    <!-- 2.5 -->
+    <LandscapePrintSetting Name="Landscape_Legend_Height" value="4.53"/>
+    <LandscapePrintSetting Name="Landscape_Legend_Width" value="1.1"/>
+    <LandscapePrintSetting Name="Landscape_CenterLineY" value="7.752"/>
+    
+  </PrintSettings>
+  
+  <PrintScales>
+    <Print type="MapScale">
+      <Name>100</Name>
+    </Print>
+    <Print type="MapScale">
+      <Name>200</Name>
+    </Print>
+    <Print type="MapScale">
+      <Name>500</Name>
+    </Print>
+    <Print type="MapScale">
+      <Name>1000</Name>
+    </Print>
+    <Print type="MapScale">
+      <Name>2000</Name>
+    </Print>
+    <Print type="MapScale">
+      <Name>5000</Name>
+    </Print>
+    <Print type="MapScale">
+      <Name>10000</Name>
+    </Print>
+    <Print type="MapScale">
+      <Name>20000</Name>
+    </Print>
+    <Print type="MapScale">
+      <Name>50000</Name>
+    </Print>
+    <Print type="MapScale">
+      <Name>100000</Name>
+    </Print>
+  </PrintScales>
+
+</PrintConfig>

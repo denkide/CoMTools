@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- This settings file sets all of the layers for the AddLayers toolbar-->
+<!-- Each layer type is separate tab in the AddLayers tool -->
+<!-- Each Name is a label on the type tab -->
+<!-- Each Value is the name of a layer file to load on click -->
+<LayerConfig>
+  <Layers>
+    <Layer type="Planning" state="OFF">
+      <Name>Gray Shaded Relief</Name>
+      <Value>Gray_Shaded_Relief.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>2006 Color Aerial</Name>
+      <Value>Aerial_Photo_Color_2006.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>Color Shaded Relief</Name>
+      <Value>Color_Shaded_Relief.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>City Limits</Name>
+      <Value>City_Limits_Outline.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Urban Growth Boundary</Name>
+      <Value>Urban_Growth_Boundary.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Open Space - Parks</Name>
+      <Value>Parks.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Parking Lots</Name>
+      <Value>Parking_Lots.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>Building Footprints</Name>
+      <Value>Building_Footprints_Fill.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>FEMA Flood Plains</Name>
+      <Value>Flood_Plains.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Bear Creek Greenway</Name>
+      <Value>Bear_Creek_Greenway.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Schools by Grade Level</Name>
+      <Value>Schools_by_Grade_Level.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Streams &amp; Irrigation Canals</Name>
+      <Value>Streams_and_Irrigation_Canals.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>Lakes &amp; Ponds</Name>
+      <Value>Lakes_and_Ponds.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>Rivers</Name>
+      <Value>Rivers.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Tax Lots by Property Class</Name>
+      <Value>Tax_Lots_by_Property_Class.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>Tax Lots</Name>
+      <Value>Tax_Lots_Outlines.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Wetland Riparian Overlay</Name>
+      <Value>Wetland_Riparian_Overlay.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Vernal Pools by Critical Habitat</Name>
+      <Value>Vernal_Pools_by_Critical_Habitat.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Vernal Pools by Conservation Code</Name>
+      <Value>Vernal_Pools_by_Conservation_Code.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Urban Containment Boundary</Name>
+      <Value>Urban_Containment_Boundary.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Public Lands</Name>
+      <Value>Public_Lands_by_Agency.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Public Facilities</Name>
+      <Value>Public_Facilities.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Proposed Urban Reserves</Name>
+      <Value>Proposed_Urban_Reserves.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Orchards</Name>
+      <Value>Orchards.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>Metropolitan Planning Organization</Name>
+      <Value>Metropolitan_Planning_Organization.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Urban Renewal</Name>
+      <Value>Medford_Urban_Renewal.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Annexations</Name>
+      <Value>Medford_Annexations.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Historic Register Properties</Name>
+      <Value>Historic_Register_Properties.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Historic Districts</Name>
+      <Value>Historic_Districts.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Foreign Trade Zones</Name>
+      <Value>Foreign_Trade_Zones.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>Air Quality Management Area (AQMA)</Name>
+      <Value>Air_Quality_Mgmt_Area.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Phoenix Zoning</Name>
+      <Value>Zoning_Phoenix.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Jacksonville Zoning</Name>
+      <Value>Zoning_Jacksonville.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>County Zoning - Generalized</Name>
+      <Value>Zoning_County_Generalized_Classification.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>County Zoning - Detailed</Name>
+      <Value>Zoning_County_Detailed_Classification.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Central Point Zoning</Name>
+      <Value>Zoning_Central_Point.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Medford Zoning Overlays</Name>
+      <Value>Zoning_Overlays.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Medford Zoning</Name>
+      <Value>Zoning_Medford.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>City Halls &amp; Courthouse</Name>
+      <Value>City_Halls_and_Courthouse.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Fire Stations</Name>
+      <Value>Fire_Stations.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Hospitals</Name>
+      <Value>Hospitals.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Law Enforcement</Name>
+      <Value>Law_Enforcement.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Bike Routes</Name>
+      <Value>Bike_Routes.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Libraries</Name>
+      <Value>Libraries.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>Alleys</Name>
+      <Value>Alleys.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>Driveways</Name>
+      <Value>Driveways.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>Railroads</Name>
+      <Value>Railroads.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="ON">
+      <Name>Streets by Type</Name>
+      <Value>Freeway_State_Highways_Arterials_Labels.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Site Address with Numbers &amp; Spaces</Name>
+      <Value>Site_Address_with_Numbers_Spaces.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Mobile Home Parks</Name>
+      <Value>Mobile_Home_Parks.lyr</Value>
+    </Layer>
+    <Layer type="Planning" state="OFF">
+      <Name>Apartments</Name>
+      <Value>Apartments.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Gray Shaded Relief</Name>
+      <Value>Gray_Shaded_Relief.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>2006 Color Aerial</Name>
+      <Value>Aerial_Photo_Color_2006.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Color Shaded Relief</Name>
+      <Value>Color_Shaded_Relief.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>City Limits</Name>
+      <Value>City_Limits_Outline.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Urban Growth Boundary</Name>
+      <Value>Urban_Growth_Boundary.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Open Space - Parks</Name>
+      <Value>Parks.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Public Lands</Name>
+      <Value>Public_Lands_by_Agency.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Public Facilities</Name>
+      <Value>Public_Facilities.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Building Footprints</Name>
+      <Value>Building_Footprints_Fill.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>FEMA Flood Plains</Name>
+      <Value>Flood_Plains.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Bear Creek Greenway</Name>
+      <Value>Bear_Creek_Greenway.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Schools by Grade Level</Name>
+      <Value>Schools_by_Grade_Level.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Streams &amp; Irrigation Canals</Name>
+      <Value>Streams_and_Irrigation_Canals.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Lakes &amp; Ponds</Name>
+      <Value>Lakes_and_Ponds.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Rivers</Name>
+      <Value>Rivers.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Tax Lots</Name>
+      <Value>Tax_Lots_Outlines.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>White City Urban Renewal Boundary</Name>
+      <Value>White_City_Urban_Renewal.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>White City Potential Commercial Use</Name>
+      <Value>White_City_Potential_Commercial.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Proposed Urban Reserves</Name>
+      <Value>Proposed_Urban_Reserves.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Medford Wards</Name>
+      <Value>Medford_Wards.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Urban Renewal</Name>
+      <Value>Medford_Urban_Renewal.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Downtown Parking District</Name>
+      <Value>Medford_Downtown_Parking_District.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Foreign Trade Zones</Name>
+      <Value>Foreign_Trade_Zones.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Medford Zoning</Name>
+      <Value>Zoning_Medford.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Parking Lots</Name>
+      <Value>Parking_Lots.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>City Halls &amp; Courthouse</Name>
+      <Value>City_Halls_and_Courthouse.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Fire Stations</Name>
+      <Value>Fire_Stations.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Hospitals</Name>
+      <Value>Hospitals.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Law Enforcement</Name>
+      <Value>Law_Enforcement.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Bike Routes</Name>
+      <Value>Bike_Routes.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Libraries</Name>
+      <Value>Libraries.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Alleys</Name>
+      <Value>Alleys.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Driveways</Name>
+      <Value>Driveways.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Railroads</Name>
+      <Value>Railroads.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="ON">
+      <Name>Streets by Type</Name>
+      <Value>Freeway_State_Highways_Arterials_Labels.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Avista Natural Gas Lines by Size (inches)</Name>
+      <Value>Natural_Gas_Lines_by_Size.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Site Address with Numbers &amp; Spaces</Name>
+      <Value>Site_Address_with_Numbers_Spaces.lyr</Value>
+    </Layer>
+    <Layer type="EconDev" state="OFF">
+      <Name>Population Centers</Name>
+      <Value>Population_Centers.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Gray Shaded Relief</Name>
+      <Value>Gray_Shaded_Relief.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>2006 Color Aerial</Name>
+      <Value>Aerial_Photo_Color_2006.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="ON">
+      <Name>Color Shaded Relief</Name>
+      <Value>Color_Shaded_Relief.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="ON">
+      <Name>City Limits</Name>
+      <Value>City_Limits_Outline.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Urban Growth Boundary</Name>
+      <Value>Urban_Growth_Boundary.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Open Space - Parks</Name>
+      <Value>Parks.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Parking Lots</Name>
+      <Value>Parking_Lots.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Public Lands</Name>
+      <Value>Public_Lands_by_Agency.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="ON">
+      <Name>Building Footprints</Name>
+      <Value>Building_Footprints_Fill.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Bear Creek Greenway</Name>
+      <Value>Bear_Creek_Greenway.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Schools by Grade Level</Name>
+      <Value>Schools_by_Grade_Level.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Streams &amp; Irrigation Canals</Name>
+      <Value>Streams_and_Irrigation_Canals.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="ON">
+      <Name>Lakes &amp; Ponds</Name>
+      <Value>Lakes_and_Ponds.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="ON">
+      <Name>Rivers</Name>
+      <Value>Rivers.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="ON">
+      <Name>Tax Lots</Name>
+      <Value>Tax_Lots_Outlines.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Swimming Pools</Name>
+      <Value>Swimming_Pools.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Public Facilities</Name>
+      <Value>Public_Facilities.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Power Substations</Name>
+      <Value>Power_Substations.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Medical Response Time Zones</Name>
+      <Value>Medical_Response_Time_Zones.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>FEMA Flood Plains</Name>
+      <Value>Flood_Plains.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Bear Creek - Flood Extent</Name>
+      <Value>Flood_Extent_Bear_Creek.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Bear Creek - Flood Depth</Name>
+      <Value>Flood_Depth_Bear_Creek.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Critical Infrastructure</Name>
+      <Value>Critical_Infrastructure.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>All Dam Inundation Zones</Name>
+      <Value>Dam_Inundation_All.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Airport Runways</Name>
+      <Value>Airport_Runways.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Fire Districts</Name>
+      <Value>Fire_Districts_Shaded_by_District.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>City Halls &amp; Courthouse</Name>
+      <Value>City_Halls_and_Courthouse.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Fire Stations</Name>
+      <Value>Fire_Stations.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Hospitals</Name>
+      <Value>Hospitals.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Law Enforcement</Name>
+      <Value>Law_Enforcement.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Bike Routes</Name>
+      <Value>Bike_Routes.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Libraries</Name>
+      <Value>Libraries.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="ON">
+      <Name>Alleys</Name>
+      <Value>Alleys.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="ON">
+      <Name>Driveways</Name>
+      <Value>Driveways.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="ON">
+      <Name>Railroads</Name>
+      <Value>Railroads.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="ON">
+      <Name>Streets by Type</Name>
+      <Value>Freeway_State_Highways_Arterials_Labels.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Avista Natural Gas Lines by Size (inches)</Name>
+      <Value>Natural_Gas_Lines_by_Size.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Avista Natural Gas Lines by Purpose</Name>
+      <Value>Natural_Gas_Lines_by_Purpose.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Avista Natural Gas Lines by Material</Name>
+      <Value>Natural_Gas_Lines_by_Material.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Common Road Closures</Name>
+      <Value>Common_Road_Closures.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Water Lines by Pipe Size (inches)</Name>
+      <Value>Water_Lines_by_Pipe_Size.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Streets by Posted Speed</Name>
+      <Value>Streets_by_Posted_Speed.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Streets - One Way</Name>
+      <Value>Streets_by_One_Way.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Site Address with Numbers &amp; Spaces</Name>
+      <Value>Site_Address_with_Numbers_Spaces.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Traffic Signals</Name>
+      <Value>Traffic_Signals.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>State Highway Milepoints</Name>
+      <Value>State_Highway_Milepoints.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Red Cross Shelters</Name>
+      <Value>Red_Cross_Shelters.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Population Centers</Name>
+      <Value>Population_Centers.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Gates &amp; Barricades</Name>
+      <Value>Gates_and_Barricades.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Fire Hydrants</Name>
+      <Value>Fire_Hydrants.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Disaster Registry Facilities</Name>
+      <Value>Disaster_Registry_Facilities.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Dams</Name>
+      <Value>Dams.lyr</Value>
+    </Layer>
+    <Layer type="Fire" state="OFF">
+      <Name>Apartments</Name>
+      <Value>Apartments.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Gray Shaded Relief</Name>
+      <Value>Gray_Shaded_Relief.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>2006 Color Aerial</Name>
+      <Value>Aerial_Photo_Color_2006.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="ON">
+      <Name>Color Shaded Relief</Name>
+      <Value>Color_Shaded_Relief.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="ON">
+      <Name>City Limits</Name>
+      <Value>City_Limits_Outline.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Urban Growth Boundary</Name>
+      <Value>Urban_Growth_Boundary.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Open Space - Parks</Name>
+      <Value>Parks.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Parking Lots</Name>
+      <Value>Parking_Lots.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Public Lands</Name>
+      <Value>Public_Lands_by_Agency.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Public Facilities</Name>
+      <Value>Public_Facilities.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="ON">
+      <Name>Building Footprints</Name>
+      <Value>Building_Footprints_Fill.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>FEMA Flood Plains</Name>
+      <Value>Flood_Plains.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Bear Creek Greenway</Name>
+      <Value>Bear_Creek_Greenway.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Schools by Grade Level</Name>
+      <Value>Schools_by_Grade_Level.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Streams &amp; Irrigation Canals</Name>
+      <Value>Streams_and_Irrigation_Canals.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="ON">
+      <Name>Lakes &amp; Ponds</Name>
+      <Value>Lakes_and_Ponds.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="ON">
+      <Name>Rivers</Name>
+      <Value>Rivers.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="ON">
+      <Name>Tax Lots</Name>
+      <Value>Tax_Lots_Outlines.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="ON">
+      <Name>Police Beats</Name>
+      <Value>Medford_Police_Beats.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Critical Infrastructure</Name>
+      <Value>Critical_Infrastructure.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>City Halls &amp; Courthouse</Name>
+      <Value>City_Halls_and_Courthouse.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Fire Stations</Name>
+      <Value>Fire_Stations.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Hospitals</Name>
+      <Value>Hospitals.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Law Enforcement</Name>
+      <Value>Law_Enforcement.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Bike Routes</Name>
+      <Value>Bike_Routes.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Libraries</Name>
+      <Value>Libraries.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="ON">
+      <Name>Alleys</Name>
+      <Value>Alleys.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="ON">
+      <Name>Driveways</Name>
+      <Value>Driveways.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="ON">
+      <Name>Railroads</Name>
+      <Value>Railroads.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Streets by Posted Speed</Name>
+      <Value>Streets_by_Posted_Speed.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Streets - One Way</Name>
+      <Value>Streets_by_One_Way.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Common Road Closures</Name>
+      <Value>Common_Road_Closures.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Streets by Surface Type</Name>
+      <Value>Streets_by_Surface_Type.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="ON">
+      <Name>Streets by Type</Name>
+      <Value>Freeway_State_Highways_Arterials_Labels.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Site Address with Numbers &amp; Spaces</Name>
+      <Value>Site_Address_with_Numbers_Spaces.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Financial Insitutions</Name>
+      <Value>Financial_Insitutions.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Purple Parrots</Name>
+      <Value>Purple_Parrots.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>State Highway Milepoints</Name>
+      <Value>State_Highway_Milepoints.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Population Centers</Name>
+      <Value>Population_Centers.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Points of Interest</Name>
+      <Value>Points_of_Interest.lyr</Value>
+    </Layer>
+    <Layer type="Police" state="OFF">
+      <Name>Disaster Registry Facilities</Name>
+      <Value>Disaster_Registry_Facilities.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Gray Shaded Relief</Name>
+      <Value>Gray_Shaded_Relief.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>2006 Color Aerial</Name>
+      <Value>Aerial_Photo_Color_2006.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>Color Shaded Relief</Name>
+      <Value>Color_Shaded_Relief.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>City Limits</Name>
+      <Value>City_Limits_Outline.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Urban Growth Boundary</Name>
+      <Value>Urban_Growth_Boundary.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Open Space - Parks</Name>
+      <Value>Parks.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Parking Lots</Name>
+      <Value>Parking_Lots.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Public Lands</Name>
+      <Value>Public_Lands_by_Agency.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Public Facilities</Name>
+      <Value>Public_Facilities.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>Building Footprints</Name>
+      <Value>Building_Footprints_Fill.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>FEMA Flood Plains</Name>
+      <Value>Flood_Plains.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Bear Creek Greenway</Name>
+      <Value>Bear_Creek_Greenway.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Schools by Grade Level</Name>
+      <Value>Schools_by_Grade_Level.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Streams &amp; Irrigation Canals</Name>
+      <Value>Streams_and_Irrigation_Canals.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>Lakes &amp; Ponds</Name>
+      <Value>Lakes_and_Ponds.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>Rivers</Name>
+      <Value>Rivers.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>Tax Lots</Name>
+      <Value>Tax_Lots_Outlines.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>Annexations</Name>
+      <Value>Medford_Annexations.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>City Halls &amp; Courthouse</Name>
+      <Value>City_Halls_and_Courthouse.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Fire Stations</Name>
+      <Value>Fire_Stations.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Hospitals</Name>
+      <Value>Hospitals.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Law Enforcement</Name>
+      <Value>Law_Enforcement.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Bike Routes</Name>
+      <Value>Bike_Routes.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Libraries</Name>
+      <Value>Libraries.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>Driveways</Name>
+      <Value>Driveways.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>Railroads</Name>
+      <Value>Railroads.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Common Road Closures</Name>
+      <Value>Common_Road_Closures.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Rogue Valley Sewer Service Lines</Name>
+      <Value>Rogue_Valley_Sewer_Lines.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Avista Natural Gas Lines by Size (inches)</Name>
+      <Value>Natural_Gas_Lines_by_Size.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Avista Natural Gas Lines by Purpose</Name>
+      <Value>Natural_Gas_Lines_by_Purpose.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Avista Natural Gas Lines by Material</Name>
+      <Value>Natural_Gas_Lines_by_Material.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Site Address with Numbers &amp; Spaces</Name>
+      <Value>Site_Address_with_Numbers_Spaces.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>Survey Control</Name>
+      <Value>Control_Points.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="OFF">
+      <Name>Gates &amp; Barricades</Name>
+      <Value>Gates_and_Barricades.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>Alleys</Name>
+      <Value>Alleys.lyr</Value>
+    </Layer>
+    <Layer type="PublicWorks" state="ON">
+      <Name>Streets by Type</Name>
+      <Value>Freeway_State_Highways_Arterials_Labels.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>City Limits</Name>
+      <Value>City_Limits_Outline.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Urban Growth Boundary</Name>
+      <Value>Urban_Growth_Boundary.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Building Footprints</Name>
+      <Value>Building_Footprints_Fill.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Driveways</Name>
+      <Value>Driveways.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Water Lines</Name>
+      <Value>Water_Lines_by_Size.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>2007 Aerial Photo</Name>
+      <Value>Aerial_Photo_Color_2007.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Gray Shaded Relief</Name>
+      <Value>Shaded_Relief_Gray.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Bear Creek Greenway</Name>
+      <Value>Bear_Creek_Greenway.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Parks</Name>
+      <Value>Parks.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Public Facilities</Name>
+      <Value>Public_Facilities.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Schools By Grade</Name>
+      <Value>Schools_by_Grade_Levels.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Taxlot Outlines</Name>
+      <Value>Tax_Lot_Outlines.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Public Lands By Agency</Name>
+      <Value>Public_Lands_by_Agency.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Site Address</Name>
+      <Value>Site_Address.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Medford Taxlots</Name>
+      <Value>Tax_Lots_Medford.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Medford Easements</Name>
+      <Value>Medford_Easements.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>All Streets</Name>
+      <Value>All_Streets.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Medford Alleys</Name>
+      <Value>Medford_Alleys.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Bike Routes</Name>
+      <Value>Bike_Routes.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Parking Lots</Name>
+      <Value>Parking_Lots.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Railroads</Name>
+      <Value>Railroads.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Streams and Irrigation Ditches</Name>
+      <Value>Streams_And_Irrigation_Ditches.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Rivers</Name>
+      <Value>Rivers.lyr</Value>
+    </Layer>
+    <Layer type="Common" state="OFF">
+      <Name>Lakes and Ponds</Name>
+      <Value>Lakes_and_Ponds.lyr</Value>
+    </Layer>
+  </Layers>
+
+</LayerConfig>

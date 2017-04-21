@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ADE36D5B-F2B2-42BD-8114-11942730C623}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoM_GISTools</RootNamespace>
+    <AssemblyName>CoM_GISTools</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ESRI.ArcGIS.ADF.Local, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ArcCatalogUI, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ArcMap, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ArcMapUI, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Carto, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Catalog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataManagementTools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86" />
+    <Reference Include="ESRI.ArcGIS.DataSourcesGDB, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Display, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geodatabase, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geometry, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geoprocessing, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geoprocessor, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86" />
+    <Reference Include="ESRI.ArcGIS.Output, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.OutputUI, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.System, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.SystemUI, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Version, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddLayer\CAddLayer.cs" />
+    <Compile Include="AddLayer\fmAddLayers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLayer\fmAddLayers.designer.cs">
+      <DependentUpon>fmAddLayers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucBoundary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucBoundary.designer.cs">
+      <DependentUpon>ucBoundary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucCensus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucCensus.designer.cs">
+      <DependentUpon>ucCensus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucEditor.designer.cs">
+      <DependentUpon>ucEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucEmergency.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucEmergency.designer.cs">
+      <DependentUpon>ucEmergency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucEnvironment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucEnvironment.designer.cs">
+      <DependentUpon>ucEnvironment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucInfrastructure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucInfrastructure.designer.cs">
+      <DependentUpon>ucInfrastructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucMapService.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucMapService.Designer.cs">
+      <DependentUpon>ucMapService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucPhoto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucPhoto.designer.cs">
+      <DependentUpon>ucPhoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucServiceDistricts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucServiceDistricts.designer.cs">
+      <DependentUpon>ucServiceDistricts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucSoilsTopo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucSoilsTopo.designer.cs">
+      <DependentUpon>ucSoilsTopo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucStructures.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucStructures.designer.cs">
+      <DependentUpon>ucStructures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucTaxlots.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucTaxlots.designer.cs">
+      <DependentUpon>ucTaxlots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucTransportation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucTransportation.designer.cs">
+      <DependentUpon>ucTransportation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucUtility.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucUtility.designer.cs">
+      <DependentUpon>ucUtility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucWater.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucWater.designer.cs">
+      <DependentUpon>ucWater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLayer\ucZoning.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddLayer\ucZoning.designer.cs">
+      <DependentUpon>ucZoning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CExtension.cs" />
+    <Compile Include="CSpatialSubs.cs" />
+    <Compile Include="CToolbar.cs" />
+    <Compile Include="DataFrame\CDataFrame.cs" />
+    <Compile Include="DataFrame\fmAddDataFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataFrame\fmAddDataFrame.designer.cs">
+      <DependentUpon>fmAddDataFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print\CLandscapeLayout.cs" />
+    <Compile Include="Print\CPageLayout.cs" />
+    <Compile Include="Print\CPortraitLayout.cs" />
+    <Compile Include="Print\CPrintMap.cs" />
+    <Compile Include="Print\fmMapScale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print\fmMapScale.designer.cs">
+      <DependentUpon>fmMapScale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print\fmPrintMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print\fmPrintMap.designer.cs">
+      <DependentUpon>fmPrintMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print\SPrintConst.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WindowWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoM_GISTools.Utility\CoM_GISTools.Utility.csproj">
+      <Project>{FE46CDFB-A816-4FF8-951A-432A1E2BFF13}</Project>
+      <Name>CoM_GISTools.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddLayer\fmAddLayers.resx">
+      <DependentUpon>fmAddLayers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucBoundary.resx">
+      <DependentUpon>ucBoundary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucCensus.resx">
+      <DependentUpon>ucCensus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucEditor.resx">
+      <DependentUpon>ucEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucEmergency.resx">
+      <DependentUpon>ucEmergency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucEnvironment.resx">
+      <DependentUpon>ucEnvironment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucInfrastructure.resx">
+      <DependentUpon>ucInfrastructure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucMapService.resx">
+      <DependentUpon>ucMapService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucPhoto.resx">
+      <DependentUpon>ucPhoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucServiceDistricts.resx">
+      <DependentUpon>ucServiceDistricts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucSoilsTopo.resx">
+      <DependentUpon>ucSoilsTopo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucStructures.resx">
+      <DependentUpon>ucStructures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucTaxlots.resx">
+      <DependentUpon>ucTaxlots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucTransportation.resx">
+      <DependentUpon>ucTransportation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucUtility.resx">
+      <DependentUpon>ucUtility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucWater.resx">
+      <DependentUpon>ucWater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLayer\ucZoning.resx">
+      <DependentUpon>ucZoning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataFrame\fmAddDataFrame.resx">
+      <DependentUpon>fmAddDataFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print\fmMapScale.resx">
+      <DependentUpon>fmMapScale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print\fmPrintMap.resx">
+      <DependentUpon>fmPrintMap.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Cfg\DataSettings.xml" />
+    <Content Include="Cfg\LayerSettings.xml" />
+    <Content Include="Cfg\PrintSettings.xml" />
+    <EmbeddedResource Include="Images\addLayer.bmp" />
+    <EmbeddedResource Include="Images\dataFrame.bmp" />
+    <EmbeddedResource Include="Images\find.bmp" />
+    <EmbeddedResource Include="Images\folder2.png" />
+    <EmbeddedResource Include="Images\Logocolor.png" />
+    <EmbeddedResource Include="Images\Logocolor_sm.jpg" />
+    <EmbeddedResource Include="Images\Logocolor_sm.png" />
+    <EmbeddedResource Include="Images\MinusBox.gif" />
+    <EmbeddedResource Include="Images\PlusBox_b.gif" />
+    <EmbeddedResource Include="Images\print_orange.bmp" />
+    <EmbeddedResource Include="Images\tlSearch.bmp" />
+    <EmbeddedResource Include="Images\wrench.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  -->
+  <Target Name="BeforeClean">
+    <Exec WorkingDirectory="$(CommonProgramFiles)\ArcGIS\bin" Command="esriRegasm.exe &quot;$(TargetPath)&quot; /p:Desktop /u /s" Condition="Exists('$(TargetPath)')" />
+  </Target>
+  <Target Name="AfterBuild">
+    <Exec WorkingDirectory="$(CommonProgramFiles)\ArcGIS\bin" Command="esriRegasm.exe &quot;$(TargetPath)&quot; /p:Desktop /s" />
+  </Target>
+</Project>

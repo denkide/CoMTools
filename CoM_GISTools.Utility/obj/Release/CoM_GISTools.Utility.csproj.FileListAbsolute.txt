@@ -1,0 +1,5 @@
+C:\_Main\_David\_Development\Apps\ArcObjects\CoM_GISTools\CoM_GISTools.Utility\bin\Release\CoM_GISTools.Utility.dll
+C:\_Main\_David\_Development\Apps\ArcObjects\CoM_GISTools\CoM_GISTools.Utility\bin\Release\CoM_GISTools.Utility.pdb
+C:\_Main\_David\_Development\Apps\ArcObjects\CoM_GISTools\CoM_GISTools.Utility\obj\Release\ResolveAssemblyReference.cache
+C:\_Main\_David\_Development\Apps\ArcObjects\CoM_GISTools\CoM_GISTools.Utility\obj\Release\CoM_GISTools.Utility.dll
+C:\_Main\_David\_Development\Apps\ArcObjects\CoM_GISTools\CoM_GISTools.Utility\obj\Release\CoM_GISTools.Utility.pdb

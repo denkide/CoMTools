@@ -1,0 +1,5 @@
+C:\_Main\_David\_Development\Apps\ArcObjects\CoM_GISTools\InvokeESRIRegAsm\bin\Debug\InvokeESRIRegAsm.dll
+C:\_Main\_David\_Development\Apps\ArcObjects\CoM_GISTools\InvokeESRIRegAsm\bin\Debug\InvokeESRIRegAsm.pdb
+C:\_Main\_David\_Development\Apps\ArcObjects\CoM_GISTools\InvokeESRIRegAsm\obj\Debug\ResolveAssemblyReference.cache
+C:\_Main\_David\_Development\Apps\ArcObjects\CoM_GISTools\InvokeESRIRegAsm\obj\Debug\InvokeESRIRegAsm.dll
+C:\_Main\_David\_Development\Apps\ArcObjects\CoM_GISTools\InvokeESRIRegAsm\obj\Debug\InvokeESRIRegAsm.pdb
