@@ -46,7 +46,6 @@ namespace CoM_GISTools.Utility
         }
 
         // Changed
-        //      DJR ::: 5/13/2009
         //          --- changed the way settings files are split up
         //              the single file was a little cumbersome
         public static string DataSettingsLocation
@@ -62,7 +61,6 @@ namespace CoM_GISTools.Utility
         }
 
         // Changed
-        //      DJR ::: 5/13/2009
         //          --- changed the way settings files are split up
         //              the single file was a little cumbersome
         public static string LayerSettingsLocation
@@ -78,7 +76,6 @@ namespace CoM_GISTools.Utility
         }
 
         // Changed
-        //      DJR ::: 5/13/2009
         //          --- changed the way settings files are split up
         //              the single file was a little cumbersome
         public static string PrintSettingsLocation
@@ -140,7 +137,6 @@ namespace CoM_GISTools.Utility
         /// -----------------------------------------------------------------
         /// notes/rev:
         /// 
-        ///  4-18-2008
         ///  DJR
         ///      -- changed to read from Settings.xml file
         /// -----------------------------------------------------------------
@@ -163,7 +159,6 @@ namespace CoM_GISTools.Utility
         /// -----------------------------------------------------------------
         /// notes/rev:
         ///
-        ///  4-18-2008
         ///  DJR
         ///      -- changed to read from Settings.xml file
         /// -----------------------------------------------------------------
@@ -187,7 +182,6 @@ namespace CoM_GISTools.Utility
         /// -----------------------------------------------------------------
         /// notes/rev:
         ///
-        ///  5-13-2009
         ///  DJR
         ///      -- added so that we can query sde database attributes
         /// -----------------------------------------------------------------
@@ -210,7 +204,6 @@ namespace CoM_GISTools.Utility
         /// -----------------------------------------------------------------
         /// notes/rev:
         /// 
-        ///  4-18-2008
         ///  DJR
         ///      -- changed to read from Settings.xml file
         /// -----------------------------------------------------------------
@@ -232,7 +225,6 @@ namespace CoM_GISTools.Utility
         /// -----------------------------------------------------------------
         /// notes/rev:
         ///
-        ///  4-18-2008
         ///  DJR
         ///      -- changed to read from Settings.xml file  (so that we can support laptops)
         /// -----------------------------------------------------------------
@@ -280,7 +272,6 @@ namespace CoM_GISTools.Utility
         /// -----------------------------------------------------------------
         /// notes/rev:
         /// 
-        ///  4-18-2008
         ///  DJR
         ///      -- changed to read from Settings.xml file
         /// -----------------------------------------------------------------
@@ -303,7 +294,6 @@ namespace CoM_GISTools.Utility
         /// -----------------------------------------------------------------
         /// notes/rev:
         /// 
-        ///  4-18-2008
         ///  DJR
         ///      -- changed to read from Settings.xml file
         /// -----------------------------------------------------------------
@@ -327,7 +317,6 @@ namespace CoM_GISTools.Utility
         /// -----------------------------------------------------------------
         /// notes/rev:
         /// 
-        ///  4-18-2008
         ///  DJR
         ///      -- changed to read from Settings.xml file
         /// -----------------------------------------------------------------
@@ -351,7 +340,6 @@ namespace CoM_GISTools.Utility
         /// -----------------------------------------------------------------
         /// notes/rev:
         /// 
-        ///  4-18-2008
         ///  DJR
         ///      -- changed to read from Settings.xml file
         /// -----------------------------------------------------------------
@@ -375,7 +363,6 @@ namespace CoM_GISTools.Utility
         /// -----------------------------------------------------------------
         /// notes/rev:
         /// 
-        ///  4-18-2008
         ///  DJR
         ///      -- changed to read from Settings.xml file
         /// -----------------------------------------------------------------
@@ -397,7 +384,6 @@ namespace CoM_GISTools.Utility
         /// -----------------------------------------------------------------
         /// notes/rev:
         /// 
-        ///  4-18-2008
         ///  DJR
         ///      -- changed to read from Settings.xml file
         /// -----------------------------------------------------------------
