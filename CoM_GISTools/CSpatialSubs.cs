@@ -1156,7 +1156,6 @@ namespace CoM_GISTools
 
 
         // --------------------------
-        //  4-24-2008
         //  DJR
         //      -- added so that we can update all prod and publication databases.
         //      -- the thinking here is that only the MEDSDE-1\MEDGISPROD SDE instance
@@ -1259,7 +1258,6 @@ namespace CoM_GISTools
 
 
         // --------------------------
-        //  4-24-2008
         //  DJR
         //      -- added so that we can update all prod and publication databases.
         // --------------------------
@@ -1296,7 +1294,6 @@ namespace CoM_GISTools
 
 
         // --------------------------
-        //  4-24-2008
         //  DJR
         //      -- added so that we can update all prod and publication databases.
         // --------------------------
@@ -1309,7 +1306,6 @@ namespace CoM_GISTools
 
 
         // --------------------------
-        //  4-24-2008
         //  DJR
         //      -- added so that we can update all prod and publication databases.
         // --------------------------
@@ -1404,7 +1400,6 @@ namespace CoM_GISTools
         /// <param name="pLineStyle"></param>
         /// <returns></returns>
         /// <info>
-        ///     added 6.13.2008   by djr 
         ///</info>
         public ILineSymbol createSimpleLineSymbol(IColor pColor, double dblWidth, esriSimpleLineStyle pLineStyle)
         {
@@ -1424,7 +1419,6 @@ namespace CoM_GISTools
         /// <param name="pBlue">the blue value</param>
         /// <returns></returns>
         /// <info>
-        ///     added 6.13.2008   by djr 
         ///</info> 
         public IColor createRGB(int pRed, int pGreen, int pBlue)
         {
@@ -1446,9 +1440,6 @@ namespace CoM_GISTools
         /// <param name="pLineSymbol"></param>
         /// <param name="style"></param>
         /// <returns></returns>
-        /// <info>
-        ///     added 6.13.2008   by djr 
-        ///</info>
         public IFillSymbol createSimpleFillSymbol(IColor pColor, ILineSymbol pLineSymbol, esriSimpleFillStyle pStyle)
         {
             ISimpleFillSymbol pSym = new SimpleFillSymbolClass();
