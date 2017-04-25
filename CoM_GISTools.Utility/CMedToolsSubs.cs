@@ -189,15 +189,6 @@ namespace CoM_GISTools.Utility
             if (sStreet.IndexOf(" ") > 0)
             {
                 sRetVal = sStreet.Substring(sStreet.LastIndexOf(" ") + 1);
-
-                //if (sStreetsCollection.Contains(sStreet.Substring(sStreet.LastIndexOf(" ") + 1)))
-                //    sRetVal = sStreet.Substring(sStreet.LastIndexOf(" ") + 1);
-                //else 
-                //{
-                //    // go to the previous space ... since that is the street type
-                //    string sTemp = sStreet.Substring(0, sStreet.LastIndexOf(" "));
-                //    sRetVal = sTemp.Substring(sTemp.LastIndexOf(" ") + 1);
-                //}
             }
             else
             {
@@ -503,11 +494,6 @@ namespace CoM_GISTools.Utility
         public static Dictionary<string, string> returnConfigNode(string sNode, string sFilter, string sSettingsLoc)
         {
             Dictionary<string, string> dctRetVal = new Dictionary<string, string>();
-
-            // sFilter = [@type='Planning']
-            // path = "/" + sParentNode + "/" + sNode + sFilter
-            // eg: "/Layers/Layer[@type='Planning']"
-
             try
             {
                 string sPath = "//" + sNode;
@@ -565,11 +551,6 @@ namespace CoM_GISTools.Utility
                 string sPrinterSettingsLoc = readRegKey(Registry.LocalMachine, "SOFTWARE\\City of Medford", "PrinterSettingsLocation");
                 string sLayerSettingsLoc = readRegKey(Registry.LocalMachine, "SOFTWARE\\City of Medford", "LayerSettingsLocation");
 
-                //MessageBox.Show("Testing ---> CMedtoolsSubs.cs :: ensureSettingsFile");
-                //string sDataSettingsLoc = "C:\\Program Files (x86)\\City of Medford\\City of Medford - GIS Toolsxxx\\DataSettings.xml";
-                //string sPrinterSettingsLoc = "C:\\Program Files (x86)\\City of Medford\\City of Medford - GIS Toolsxxx\\PrintSettings.xml";
-                //string sLayerSettingsLoc = "C:\\Program Files (x86)\\City of Medford\\City of Medford - GIS Toolsxxx\\LayerSettings.xml";
-
                 if (File.Exists(sDataSettingsLoc))
                 {
                     SConst.DataSettingsLocation = sDataSettingsLoc;
@@ -596,7 +577,6 @@ namespace CoM_GISTools.Utility
         }
 
         // --------------------------
-        //  4-24-2008
         //  DJR
         //      -- added so that we can use a settings.xml file for config
         // --------------------------
